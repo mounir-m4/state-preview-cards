@@ -1,0 +1,51 @@
+@media (min-height: 375px) {
+  #main {
+    height: 100vh;
+  }
+  .container {
+    height: 90vh;
+    flex-direction: column-reverse;
+    margin: 0.5rem 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+  }
+  .container br {
+    display: none;
+  }
+  .content {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 1.5rem;
+    margin: 1.4rem 0;
+  }
+  .content > p {
+    font-size: 0.9rem;
+    margin: 1.4rem 0;
+    line-height: 1rem;
+  }
+  ul {
+    margin-top: 0.5rem;
+    flex-direction: column;
+  }
+  li {
+    margin: 0.4rem 0;
+  }
+  li p {
+    font-size: 1.5rem;
+  }
+
+  .content-image {
+    width: 100%;
+    padding: 0;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
